@@ -1,31 +1,24 @@
-**Research Proposal: Designing an Interactive Tool for Literature Reviews of American Economic Review Papers**
+Title: Proposal for Designing a Tool for Literature Review for American Economic Review Papers
 
-**Objective:**
-The aim of this project is to develop a Python-based tool to streamline and enhance the literature review process for economists, specifically focusing on papers published in the prestigious journal, American Economic Review (AER). The tool will provide users with an efficient means of accessing and analyzing relevant information from AER papers within a specified timeframe.
+Objective:
+The goal of this project is to build a Python tool that assists economists in conducting literature reviews for papers published in the top economics journal, American Economic Review. By leveraging techniques like web scraping, text analysis, and machine learning, the tool will provide users with a streamlined process for accessing relevant research papers, identifying trends, and extracting key information for their own research.
 
-**Proposed Approach:**
+Methodology:
+1. Web Scraping: Develop a web scraping module to extract information such as authors, abstracts, keywords, and publication details for papers published in the American Economic Review within a specified timeframe.
 
-1. **Web Scraping of AER Data:**
-   - Utilize web scraping techniques to gather information such as authors, abstracts, keywords, publication dates, and journal titles from AER papers published within a defined 5-year period.
+2. Data Dashboard: Construct a user-friendly dashboard using libraries like Plotly or Dash to visualize patterns, trends, and insights from the scraped papers. This will offer users a quick overview of the most recent research trends in the journal.
 
-2. **Dashboard Displaying Patterns and Trends:**
-   - Develop a visually appealing dashboard using Python libraries such as Plotly or Dash. This dashboard will offer users an overview of patterns, trends, and key insights from the collected AER papers, aiding in identifying the latest research directions.
+3. Text Analysis: Implement text analysis techniques like Natural Language Processing (NLP) and word embeddings to enable users to enter specific research topics or fields of interest. The tool will then search the database to find related papers and provide relevant information such as abstracts, datasets used, empirical strategies, author details, and journal names.
 
-3. **Text Analysis and Search Functionality:**
-   - Implement text analysis and word embeddings to enable users to input their research topic or field of interest. The tool will search the AER database for relevant papers, returning results based on similarity in abstract content, keywords, or other attributes.
+4. Machine Learning: Explore the possibility of applying machine learning algorithms for improved paper categorization and recommendation based on user input and preferences.
 
-4. **Information Retrieval and Citation Generation:**
-   - Design algorithms using machine learning or natural language processing to extract pertinent details from identified AER papers. These details will include abstracts, datasets used, empirical strategies employed, author information, journal names, and citation formatting.
+5. Output Generation: Generate a structured spreadsheet containing all the extracted information, facilitating easy categorization and comparison of the papers.
 
-5. **Output Organization and Categorization:**
-   - Compile the extracted information into a structured spreadsheet format, facilitating systematic categorization and comparison of papers related to the user's research interest.
+Building the Dashboard:
+- Approach: Utilize the Plotly library in Python to create interactive and visually appealing plots and charts for displaying trends and insights from the literature database.
+- Design: Focus on creating a clean and intuitive interface with dropdown menus for topic selection, search bars for query input, and dynamic graphs for displaying trends and patterns.
+- Functionality: Ensure the dashboard allows users to interact with the data, filter results based on criteria, and easily access detailed information for selected papers.
 
-**Feasibility of Dashboard Implementation:**
-- To create an interactive dashboard, leveraging libraries like Plotly or Dash can be highly effective. Dash, being a user-friendly web application framework for Python, allows for the construction of interactive and customizable data visualization interfaces quickly. Additionally, incorporating CSS styling and responsive design principles will enhance the overall user experience.
+In conclusion, this project will empower economists with a robust tool for efficiently conducting literature reviews, staying updated on the latest research trends, and extracting valuable insights for their own research endeavors.
 
-**Conclusion:**
-By employing a combination of web scraping, text analysis, machine learning, and data visualization techniques, this proposed tool will empower economists to efficiently navigate the vast landscape of AER publications and derive valuable insights for their research endeavors.
-
---- 
-
-This proposal outlines a comprehensive plan for developing an innovative tool that caters to the specific needs of economists engaging in literature review processes related to the American Economic Review. By leveraging advanced Python functionalities and visualization tools, the proposed tool aims to streamline the search, analysis, and organization of pertinent information from AER papers, ultimately enhancing the efficiency and effectiveness of literature review activities in the field of economics.
+Let me know if you need further assistance or modifications on the proposal.
